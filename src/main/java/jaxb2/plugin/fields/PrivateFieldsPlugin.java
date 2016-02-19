@@ -13,10 +13,12 @@ public class PrivateFieldsPlugin extends Plugin {
 
     private static final String OPTION_NAME = "Xprivate-fields";
 
+    @Override
     public String getOptionName() {
         return OPTION_NAME;
     }
 
+    @Override
     public String getUsage() {
         return "-" + OPTION_NAME + ": Set fields access level to private";
     }
